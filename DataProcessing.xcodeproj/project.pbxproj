@@ -1,0 +1,1137 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EB3164B1F15D63500FA46EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3164A1F15D63500FA46EC /* main.m */; };
+		6EB3164E1F15D63500FA46EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3164D1F15D63500FA46EC /* AppDelegate.m */; };
+		6EB316511F15D63500FA46EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316501F15D63500FA46EC /* ViewController.m */; };
+		6EB316541F15D63500FA46EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB316521F15D63500FA46EC /* Main.storyboard */; };
+		6EB316561F15D63500FA46EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB316551F15D63500FA46EC /* Assets.xcassets */; };
+		6EB316591F15D63500FA46EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB316571F15D63500FA46EC /* LaunchScreen.storyboard */; };
+		6EB316641F15D63500FA46EC /* DataProcessingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316631F15D63500FA46EC /* DataProcessingTests.m */; };
+		6EB3166F1F15D63500FA46EC /* DataProcessingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3166E1F15D63500FA46EC /* DataProcessingUITests.m */; };
+		6EB316811F15D65000FA46EC /* SYYNetworkOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316801F15D65000FA46EC /* SYYNetworkOperator.m */; };
+		6EB3168D1F15D65600FA46EC /* SYYModelCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316861F15D65600FA46EC /* SYYModelCoordinator.m */; };
+		6EB3168E1F15D65600FA46EC /* SYYCoordinatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3168A1F15D65600FA46EC /* SYYCoordinatorModel.m */; };
+		6EB317181F15D65E00FA46EC /* SYYJSonAbstractBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316941F15D65E00FA46EC /* SYYJSonAbstractBuilder.m */; };
+		6EB317191F15D65E00FA46EC /* SYYJSonToObjectBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316981F15D65E00FA46EC /* SYYJSonToObjectBuilder.m */; };
+		6EB3171A1F15D65E00FA46EC /* SYYJSonPersistBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3169B1F15D65E00FA46EC /* SYYJSonPersistBuilder.m */; };
+		6EB3171B1F15D65E00FA46EC /* SYYActivityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316A01F15D65E00FA46EC /* SYYActivityModel.m */; };
+		6EB3171C1F15D65E00FA46EC /* SYYActivityRelativeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316A21F15D65E00FA46EC /* SYYActivityRelativeInfo.m */; };
+		6EB3171D1F15D65E00FA46EC /* SYYInterviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316A41F15D65E00FA46EC /* SYYInterviewModel.m */; };
+		6EB3171E1F15D65E00FA46EC /* SYYJSonAttentionAndFansInfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316A71F15D65E00FA46EC /* SYYJSonAttentionAndFansInfoResponse.m */; };
+		6EB3171F1F15D65E00FA46EC /* SYYActivityCommentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316AA1F15D65E00FA46EC /* SYYActivityCommentInfo.m */; };
+		6EB317201F15D65E00FA46EC /* SYYInterviewCommentsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316AC1F15D65E00FA46EC /* SYYInterviewCommentsResponse.m */; };
+		6EB317211F15D65E00FA46EC /* SYYJsonActivityCommentDetailInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316AE1F15D65E00FA46EC /* SYYJsonActivityCommentDetailInfo.m */; };
+		6EB317221F15D65E00FA46EC /* SYYJSonCommentDetailInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316B01F15D65E00FA46EC /* SYYJSonCommentDetailInfo.m */; };
+		6EB317231F15D65E00FA46EC /* SYYJSonCommentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316B21F15D65E00FA46EC /* SYYJSonCommentInfo.m */; };
+		6EB317241F15D65E00FA46EC /* SYYJsonInterviewCommentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316B41F15D65E00FA46EC /* SYYJsonInterviewCommentInfo.m */; };
+		6EB317251F15D65E00FA46EC /* SYYJSonMomentCommentsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316B61F15D65E00FA46EC /* SYYJSonMomentCommentsResponse.m */; };
+		6EB317261F15D65E00FA46EC /* SYYJSonMusicCommentsInfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316B81F15D65E00FA46EC /* SYYJSonMusicCommentsInfoResponse.m */; };
+		6EB317271F15D65E00FA46EC /* SYYPostInterViewActivityCommentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316BA1F15D65E00FA46EC /* SYYPostInterViewActivityCommentInfo.m */; };
+		6EB317281F15D65E00FA46EC /* SYYFmdbModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316BD1F15D65E00FA46EC /* SYYFmdbModel.m */; };
+		6EB317291F15D65E00FA46EC /* SYYJSonAbtractObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316BF1F15D65E00FA46EC /* SYYJSonAbtractObject.m */; };
+		6EB3172A1F15D65E00FA46EC /* SYYJSonMomentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316C11F15D65E00FA46EC /* SYYJSonMomentInfo.m */; };
+		6EB3172B1F15D65E00FA46EC /* SYYJSonMusicianInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316C31F15D65E00FA46EC /* SYYJSonMusicianInfo.m */; };
+		6EB3172C1F15D65E00FA46EC /* SYYJSonMusicInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316C51F15D65E00FA46EC /* SYYJSonMusicInfo.m */; };
+		6EB3172D1F15D65E00FA46EC /* SYYJSonResourceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316C71F15D65E00FA46EC /* SYYJSonResourceInfo.m */; };
+		6EB3172E1F15D65E00FA46EC /* SYYJSonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316C91F15D65E00FA46EC /* SYYJSonResponse.m */; };
+		6EB3172F1F15D65E00FA46EC /* SYYMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316CB1F15D65E00FA46EC /* SYYMusicModel.m */; };
+		6EB317301F15D65E00FA46EC /* SYYGetMoreSongLIstInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316CE1F15D65E00FA46EC /* SYYGetMoreSongLIstInfo.m */; };
+		6EB317311F15D65E00FA46EC /* SYYJSonHotSearchListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316D11F15D65E00FA46EC /* SYYJSonHotSearchListResponse.m */; };
+		6EB317321F15D65E00FA46EC /* SYYLikeMusicOrMomentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316D41F15D65E00FA46EC /* SYYLikeMusicOrMomentInfo.m */; };
+		6EB317331F15D65E00FA46EC /* SYYJSonMomentsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316D71F15D65E00FA46EC /* SYYJSonMomentsResponse.m */; };
+		6EB317341F15D65E00FA46EC /* SYYJSonMomentHeadInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316DA1F15D65E00FA46EC /* SYYJSonMomentHeadInfo.m */; };
+		6EB317351F15D65E00FA46EC /* SYYJSonMomentsHeadListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316DC1F15D65E00FA46EC /* SYYJSonMomentsHeadListResponse.m */; };
+		6EB317361F15D65E00FA46EC /* SYYJSonMusicInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316DF1F15D65E00FA46EC /* SYYJSonMusicInfo.m */; };
+		6EB317371F15D65E00FA46EC /* SYYJSonMusicListOfMusicianResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316E21F15D65E00FA46EC /* SYYJSonMusicListOfMusicianResponse.m */; };
+		6EB317381F15D65E00FA46EC /* SYYJsonSongListInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316E41F15D65E00FA46EC /* SYYJsonSongListInfo.m */; };
+		6EB317391F15D65E00FA46EC /* SYYRecommendMusicInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316E61F15D65E00FA46EC /* SYYRecommendMusicInfo.m */; };
+		6EB3173A1F15D65E00FA46EC /* SYYRecommendMusicListDetailResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316E81F15D65E00FA46EC /* SYYRecommendMusicListDetailResponse.m */; };
+		6EB3173B1F15D65E00FA46EC /* SYYHomeHOT_NEWMusicList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316EB1F15D65E00FA46EC /* SYYHomeHOT_NEWMusicList.m */; };
+		6EB3173C1F15D65E00FA46EC /* SYYOfficialPushInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316EE1F15D65E00FA46EC /* SYYOfficialPushInfo.m */; };
+		6EB3173D1F15D65E00FA46EC /* SYYJSonAdvertisementInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316F11F15D65E00FA46EC /* SYYJSonAdvertisementInfo.m */; };
+		6EB3173E1F15D65E00FA46EC /* SYYJSonRecommendedInfoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316F31F15D65E00FA46EC /* SYYJSonRecommendedInfoResponse.m */; };
+		6EB3173F1F15D65E00FA46EC /* SYYJSonSearchMusicOrMusicianInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316F61F15D65E00FA46EC /* SYYJSonSearchMusicOrMusicianInfo.m */; };
+		6EB317401F15D65E00FA46EC /* SYYJSonSearchMusicOrMusicianResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316F81F15D65E00FA46EC /* SYYJSonSearchMusicOrMusicianResponse.m */; };
+		6EB317411F15D65E00FA46EC /* SYYMusicianInformationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316FC1F15D65E00FA46EC /* SYYMusicianInformationInfo.m */; };
+		6EB317421F15D65E00FA46EC /* SYYJPushMusicInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB316FE1F15D65E00FA46EC /* SYYJPushMusicInfo.m */; };
+		6EB317431F15D65E00FA46EC /* SYYJsonDefaultSearchValueResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB317001F15D65E00FA46EC /* SYYJsonDefaultSearchValueResponse.m */; };
+		6EB317441F15D65E00FA46EC /* SYYJSonFavouriteMusicOfMusicianResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB317021F15D65E00FA46EC /* SYYJSonFavouriteMusicOfMusicianResponse.m */; };
+		6EB317451F15D65E00FA46EC /* SYYJsonHotORSuggestMusicianResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB317041F15D65E00FA46EC /* SYYJsonHotORSuggestMusicianResponse.m */; };
+		6EB317461F15D65E00FA46EC /* SYYJSonMomentListOfMusicianResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB317061F15D65E00FA46EC /* SYYJSonMomentListOfMusicianResponse.m */; };
+		6EB317471F15D65E00FA46EC /* SYYJSONMomentListOfOtherMusicianReponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB317081F15D65E00FA46EC /* SYYJSONMomentListOfOtherMusicianReponse.m */; };
+		6EB317481F15D65E00FA46EC /* SYYJSonPublishMusicOfMusicianResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3170A1F15D65E00FA46EC /* SYYJSonPublishMusicOfMusicianResponse.m */; };
+		6EB317491F15D65E00FA46EC /* SYYJSonSearchInterviewOrActivityResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3170C1F15D65E00FA46EC /* SYYJSonSearchInterviewOrActivityResponse.m */; };
+		6EB3174A1F15D65E00FA46EC /* SYYJsonUerInformationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3170E1F15D65E00FA46EC /* SYYJsonUerInformationResponse.m */; };
+		6EB3174B1F15D65E00FA46EC /* SYYJsonUserCommentPushListInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB317101F15D65E00FA46EC /* SYYJsonUserCommentPushListInfo.m */; };
+		6EB3174C1F15D65E00FA46EC /* SYYJSonUploadResourceToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB317131F15D65E00FA46EC /* SYYJSonUploadResourceToken.m */; };
+		6EB3174D1F15D65E00FA46EC /* SYYJSONUploadResourceTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB317151F15D65E00FA46EC /* SYYJSONUploadResourceTokenResponse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EB316601F15D63500FA46EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB3163E1F15D63500FA46EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB316451F15D63500FA46EC;
+			remoteInfo = DataProcessing;
+		};
+		6EB3166B1F15D63500FA46EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB3163E1F15D63500FA46EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB316451F15D63500FA46EC;
+			remoteInfo = DataProcessing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EB316461F15D63500FA46EC /* DataProcessing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataProcessing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB3164A1F15D63500FA46EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EB3164C1F15D63500FA46EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6EB3164D1F15D63500FA46EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6EB3164F1F15D63500FA46EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6EB316501F15D63500FA46EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6EB316531F15D63500FA46EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EB316551F15D63500FA46EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EB316581F15D63500FA46EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EB3165A1F15D63500FA46EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB3165F1F15D63500FA46EC /* DataProcessingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataProcessingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB316631F15D63500FA46EC /* DataProcessingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataProcessingTests.m; sourceTree = "<group>"; };
+		6EB316651F15D63500FA46EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB3166A1F15D63500FA46EC /* DataProcessingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataProcessingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB3166E1F15D63500FA46EC /* DataProcessingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataProcessingUITests.m; sourceTree = "<group>"; };
+		6EB316701F15D63500FA46EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB3167E1F15D65000FA46EC /* SYYIOAbstractOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYIOAbstractOperator.h; sourceTree = "<group>"; };
+		6EB3167F1F15D65000FA46EC /* SYYNetworkOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYNetworkOperator.h; sourceTree = "<group>"; };
+		6EB316801F15D65000FA46EC /* SYYNetworkOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYNetworkOperator.m; sourceTree = "<group>"; };
+		6EB316841F15D65600FA46EC /* SYYAbstractCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYAbstractCoordinator.h; sourceTree = "<group>"; };
+		6EB316851F15D65600FA46EC /* SYYModelCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYModelCoordinator.h; sourceTree = "<group>"; };
+		6EB316861F15D65600FA46EC /* SYYModelCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYModelCoordinator.m; sourceTree = "<group>"; };
+		6EB316881F15D65600FA46EC /* SYYAbstractCoordinatorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYAbstractCoordinatorModel.h; sourceTree = "<group>"; };
+		6EB316891F15D65600FA46EC /* SYYCoordinatorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYCoordinatorModel.h; sourceTree = "<group>"; };
+		6EB3168A1F15D65600FA46EC /* SYYCoordinatorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYCoordinatorModel.m; sourceTree = "<group>"; };
+		6EB316931F15D65E00FA46EC /* SYYJSonAbstractBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonAbstractBuilder.h; sourceTree = "<group>"; };
+		6EB316941F15D65E00FA46EC /* SYYJSonAbstractBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonAbstractBuilder.m; sourceTree = "<group>"; };
+		6EB316951F15D65E00FA46EC /* SYYJSonAbstractBuilderInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonAbstractBuilderInterface.h; sourceTree = "<group>"; };
+		6EB316971F15D65E00FA46EC /* SYYJSonToObjectBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonToObjectBuilder.h; sourceTree = "<group>"; };
+		6EB316981F15D65E00FA46EC /* SYYJSonToObjectBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonToObjectBuilder.m; sourceTree = "<group>"; };
+		6EB3169A1F15D65E00FA46EC /* SYYJSonPersistBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonPersistBuilder.h; sourceTree = "<group>"; };
+		6EB3169B1F15D65E00FA46EC /* SYYJSonPersistBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonPersistBuilder.m; sourceTree = "<group>"; };
+		6EB3169F1F15D65E00FA46EC /* SYYActivityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYActivityModel.h; sourceTree = "<group>"; };
+		6EB316A01F15D65E00FA46EC /* SYYActivityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYActivityModel.m; sourceTree = "<group>"; };
+		6EB316A11F15D65E00FA46EC /* SYYActivityRelativeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYActivityRelativeInfo.h; sourceTree = "<group>"; };
+		6EB316A21F15D65E00FA46EC /* SYYActivityRelativeInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYActivityRelativeInfo.m; sourceTree = "<group>"; };
+		6EB316A31F15D65E00FA46EC /* SYYInterviewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYInterviewModel.h; sourceTree = "<group>"; };
+		6EB316A41F15D65E00FA46EC /* SYYInterviewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYInterviewModel.m; sourceTree = "<group>"; };
+		6EB316A61F15D65E00FA46EC /* SYYJSonAttentionAndFansInfoResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonAttentionAndFansInfoResponse.h; sourceTree = "<group>"; };
+		6EB316A71F15D65E00FA46EC /* SYYJSonAttentionAndFansInfoResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonAttentionAndFansInfoResponse.m; sourceTree = "<group>"; };
+		6EB316A91F15D65E00FA46EC /* SYYActivityCommentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYActivityCommentInfo.h; sourceTree = "<group>"; };
+		6EB316AA1F15D65E00FA46EC /* SYYActivityCommentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYActivityCommentInfo.m; sourceTree = "<group>"; };
+		6EB316AB1F15D65E00FA46EC /* SYYInterviewCommentsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYInterviewCommentsResponse.h; sourceTree = "<group>"; };
+		6EB316AC1F15D65E00FA46EC /* SYYInterviewCommentsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYInterviewCommentsResponse.m; sourceTree = "<group>"; };
+		6EB316AD1F15D65E00FA46EC /* SYYJsonActivityCommentDetailInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJsonActivityCommentDetailInfo.h; sourceTree = "<group>"; };
+		6EB316AE1F15D65E00FA46EC /* SYYJsonActivityCommentDetailInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJsonActivityCommentDetailInfo.m; sourceTree = "<group>"; };
+		6EB316AF1F15D65E00FA46EC /* SYYJSonCommentDetailInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonCommentDetailInfo.h; sourceTree = "<group>"; };
+		6EB316B01F15D65E00FA46EC /* SYYJSonCommentDetailInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonCommentDetailInfo.m; sourceTree = "<group>"; };
+		6EB316B11F15D65E00FA46EC /* SYYJSonCommentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonCommentInfo.h; sourceTree = "<group>"; };
+		6EB316B21F15D65E00FA46EC /* SYYJSonCommentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonCommentInfo.m; sourceTree = "<group>"; };
+		6EB316B31F15D65E00FA46EC /* SYYJsonInterviewCommentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJsonInterviewCommentInfo.h; sourceTree = "<group>"; };
+		6EB316B41F15D65E00FA46EC /* SYYJsonInterviewCommentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJsonInterviewCommentInfo.m; sourceTree = "<group>"; };
+		6EB316B51F15D65E00FA46EC /* SYYJSonMomentCommentsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonMomentCommentsResponse.h; sourceTree = "<group>"; };
+		6EB316B61F15D65E00FA46EC /* SYYJSonMomentCommentsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonMomentCommentsResponse.m; sourceTree = "<group>"; };
+		6EB316B71F15D65E00FA46EC /* SYYJSonMusicCommentsInfoResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonMusicCommentsInfoResponse.h; sourceTree = "<group>"; };
+		6EB316B81F15D65E00FA46EC /* SYYJSonMusicCommentsInfoResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonMusicCommentsInfoResponse.m; sourceTree = "<group>"; };
+		6EB316B91F15D65E00FA46EC /* SYYPostInterViewActivityCommentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYPostInterViewActivityCommentInfo.h; sourceTree = "<group>"; };
+		6EB316BA1F15D65E00FA46EC /* SYYPostInterViewActivityCommentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYPostInterViewActivityCommentInfo.m; sourceTree = "<group>"; };
+		6EB316BC1F15D65E00FA46EC /* SYYFmdbModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYFmdbModel.h; sourceTree = "<group>"; };
+		6EB316BD1F15D65E00FA46EC /* SYYFmdbModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYFmdbModel.m; sourceTree = "<group>"; };
+		6EB316BE1F15D65E00FA46EC /* SYYJSonAbtractObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonAbtractObject.h; sourceTree = "<group>"; };
+		6EB316BF1F15D65E00FA46EC /* SYYJSonAbtractObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonAbtractObject.m; sourceTree = "<group>"; };
+		6EB316C01F15D65E00FA46EC /* SYYJSonMomentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonMomentInfo.h; sourceTree = "<group>"; };
+		6EB316C11F15D65E00FA46EC /* SYYJSonMomentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonMomentInfo.m; sourceTree = "<group>"; };
+		6EB316C21F15D65E00FA46EC /* SYYJSonMusicianInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonMusicianInfo.h; sourceTree = "<group>"; };
+		6EB316C31F15D65E00FA46EC /* SYYJSonMusicianInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonMusicianInfo.m; sourceTree = "<group>"; };
+		6EB316C41F15D65E00FA46EC /* SYYJSonMusicInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonMusicInfo.h; sourceTree = "<group>"; };
+		6EB316C51F15D65E00FA46EC /* SYYJSonMusicInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonMusicInfo.m; sourceTree = "<group>"; };
+		6EB316C61F15D65E00FA46EC /* SYYJSonResourceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonResourceInfo.h; sourceTree = "<group>"; };
+		6EB316C71F15D65E00FA46EC /* SYYJSonResourceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonResourceInfo.m; sourceTree = "<group>"; };
+		6EB316C81F15D65E00FA46EC /* SYYJSonResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonResponse.h; sourceTree = "<group>"; };
+		6EB316C91F15D65E00FA46EC /* SYYJSonResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonResponse.m; sourceTree = "<group>"; };
+		6EB316CA1F15D65E00FA46EC /* SYYMusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYMusicModel.h; sourceTree = "<group>"; };
+		6EB316CB1F15D65E00FA46EC /* SYYMusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYMusicModel.m; sourceTree = "<group>"; };
+		6EB316CD1F15D65E00FA46EC /* SYYGetMoreSongLIstInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYGetMoreSongLIstInfo.h; sourceTree = "<group>"; };
+		6EB316CE1F15D65E00FA46EC /* SYYGetMoreSongLIstInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYGetMoreSongLIstInfo.m; sourceTree = "<group>"; };
+		6EB316D01F15D65E00FA46EC /* SYYJSonHotSearchListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonHotSearchListResponse.h; sourceTree = "<group>"; };
+		6EB316D11F15D65E00FA46EC /* SYYJSonHotSearchListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonHotSearchListResponse.m; sourceTree = "<group>"; };
+		6EB316D31F15D65E00FA46EC /* SYYLikeMusicOrMomentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYLikeMusicOrMomentInfo.h; sourceTree = "<group>"; };
+		6EB316D41F15D65E00FA46EC /* SYYLikeMusicOrMomentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYLikeMusicOrMomentInfo.m; sourceTree = "<group>"; };
+		6EB316D61F15D65E00FA46EC /* SYYJSonMomentsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonMomentsResponse.h; sourceTree = "<group>"; };
+		6EB316D71F15D65E00FA46EC /* SYYJSonMomentsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonMomentsResponse.m; sourceTree = "<group>"; };
+		6EB316D91F15D65E00FA46EC /* SYYJSonMomentHeadInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonMomentHeadInfo.h; sourceTree = "<group>"; };
+		6EB316DA1F15D65E00FA46EC /* SYYJSonMomentHeadInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonMomentHeadInfo.m; sourceTree = "<group>"; };
+		6EB316DB1F15D65E00FA46EC /* SYYJSonMomentsHeadListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonMomentsHeadListResponse.h; sourceTree = "<group>"; };
+		6EB316DC1F15D65E00FA46EC /* SYYJSonMomentsHeadListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonMomentsHeadListResponse.m; sourceTree = "<group>"; };
+		6EB316DE1F15D65E00FA46EC /* SYYJSonMusicInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonMusicInfo.h; sourceTree = "<group>"; };
+		6EB316DF1F15D65E00FA46EC /* SYYJSonMusicInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonMusicInfo.m; sourceTree = "<group>"; };
+		6EB316E11F15D65E00FA46EC /* SYYJSonMusicListOfMusicianResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonMusicListOfMusicianResponse.h; sourceTree = "<group>"; };
+		6EB316E21F15D65E00FA46EC /* SYYJSonMusicListOfMusicianResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonMusicListOfMusicianResponse.m; sourceTree = "<group>"; };
+		6EB316E31F15D65E00FA46EC /* SYYJsonSongListInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJsonSongListInfo.h; sourceTree = "<group>"; };
+		6EB316E41F15D65E00FA46EC /* SYYJsonSongListInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJsonSongListInfo.m; sourceTree = "<group>"; };
+		6EB316E51F15D65E00FA46EC /* SYYRecommendMusicInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYRecommendMusicInfo.h; sourceTree = "<group>"; };
+		6EB316E61F15D65E00FA46EC /* SYYRecommendMusicInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYRecommendMusicInfo.m; sourceTree = "<group>"; };
+		6EB316E71F15D65E00FA46EC /* SYYRecommendMusicListDetailResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYRecommendMusicListDetailResponse.h; sourceTree = "<group>"; };
+		6EB316E81F15D65E00FA46EC /* SYYRecommendMusicListDetailResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYRecommendMusicListDetailResponse.m; sourceTree = "<group>"; };
+		6EB316EA1F15D65E00FA46EC /* SYYHomeHOT_NEWMusicList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYHomeHOT_NEWMusicList.h; sourceTree = "<group>"; };
+		6EB316EB1F15D65E00FA46EC /* SYYHomeHOT_NEWMusicList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYHomeHOT_NEWMusicList.m; sourceTree = "<group>"; };
+		6EB316ED1F15D65E00FA46EC /* SYYOfficialPushInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYOfficialPushInfo.h; sourceTree = "<group>"; };
+		6EB316EE1F15D65E00FA46EC /* SYYOfficialPushInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYOfficialPushInfo.m; sourceTree = "<group>"; };
+		6EB316F01F15D65E00FA46EC /* SYYJSonAdvertisementInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonAdvertisementInfo.h; sourceTree = "<group>"; };
+		6EB316F11F15D65E00FA46EC /* SYYJSonAdvertisementInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonAdvertisementInfo.m; sourceTree = "<group>"; };
+		6EB316F21F15D65E00FA46EC /* SYYJSonRecommendedInfoResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonRecommendedInfoResponse.h; sourceTree = "<group>"; };
+		6EB316F31F15D65E00FA46EC /* SYYJSonRecommendedInfoResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonRecommendedInfoResponse.m; sourceTree = "<group>"; };
+		6EB316F51F15D65E00FA46EC /* SYYJSonSearchMusicOrMusicianInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonSearchMusicOrMusicianInfo.h; sourceTree = "<group>"; };
+		6EB316F61F15D65E00FA46EC /* SYYJSonSearchMusicOrMusicianInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonSearchMusicOrMusicianInfo.m; sourceTree = "<group>"; };
+		6EB316F71F15D65E00FA46EC /* SYYJSonSearchMusicOrMusicianResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonSearchMusicOrMusicianResponse.h; sourceTree = "<group>"; };
+		6EB316F81F15D65E00FA46EC /* SYYJSonSearchMusicOrMusicianResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonSearchMusicOrMusicianResponse.m; sourceTree = "<group>"; };
+		6EB316FB1F15D65E00FA46EC /* SYYMusicianInformationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYMusicianInformationInfo.h; sourceTree = "<group>"; };
+		6EB316FC1F15D65E00FA46EC /* SYYMusicianInformationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYMusicianInformationInfo.m; sourceTree = "<group>"; };
+		6EB316FD1F15D65E00FA46EC /* SYYJPushMusicInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJPushMusicInfo.h; sourceTree = "<group>"; };
+		6EB316FE1F15D65E00FA46EC /* SYYJPushMusicInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJPushMusicInfo.m; sourceTree = "<group>"; };
+		6EB316FF1F15D65E00FA46EC /* SYYJsonDefaultSearchValueResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJsonDefaultSearchValueResponse.h; sourceTree = "<group>"; };
+		6EB317001F15D65E00FA46EC /* SYYJsonDefaultSearchValueResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJsonDefaultSearchValueResponse.m; sourceTree = "<group>"; };
+		6EB317011F15D65E00FA46EC /* SYYJSonFavouriteMusicOfMusicianResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonFavouriteMusicOfMusicianResponse.h; sourceTree = "<group>"; };
+		6EB317021F15D65E00FA46EC /* SYYJSonFavouriteMusicOfMusicianResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonFavouriteMusicOfMusicianResponse.m; sourceTree = "<group>"; };
+		6EB317031F15D65E00FA46EC /* SYYJsonHotORSuggestMusicianResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJsonHotORSuggestMusicianResponse.h; sourceTree = "<group>"; };
+		6EB317041F15D65E00FA46EC /* SYYJsonHotORSuggestMusicianResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJsonHotORSuggestMusicianResponse.m; sourceTree = "<group>"; };
+		6EB317051F15D65E00FA46EC /* SYYJSonMomentListOfMusicianResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonMomentListOfMusicianResponse.h; sourceTree = "<group>"; };
+		6EB317061F15D65E00FA46EC /* SYYJSonMomentListOfMusicianResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonMomentListOfMusicianResponse.m; sourceTree = "<group>"; };
+		6EB317071F15D65E00FA46EC /* SYYJSONMomentListOfOtherMusicianReponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSONMomentListOfOtherMusicianReponse.h; sourceTree = "<group>"; };
+		6EB317081F15D65E00FA46EC /* SYYJSONMomentListOfOtherMusicianReponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSONMomentListOfOtherMusicianReponse.m; sourceTree = "<group>"; };
+		6EB317091F15D65E00FA46EC /* SYYJSonPublishMusicOfMusicianResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonPublishMusicOfMusicianResponse.h; sourceTree = "<group>"; };
+		6EB3170A1F15D65E00FA46EC /* SYYJSonPublishMusicOfMusicianResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonPublishMusicOfMusicianResponse.m; sourceTree = "<group>"; };
+		6EB3170B1F15D65E00FA46EC /* SYYJSonSearchInterviewOrActivityResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonSearchInterviewOrActivityResponse.h; sourceTree = "<group>"; };
+		6EB3170C1F15D65E00FA46EC /* SYYJSonSearchInterviewOrActivityResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonSearchInterviewOrActivityResponse.m; sourceTree = "<group>"; };
+		6EB3170D1F15D65E00FA46EC /* SYYJsonUerInformationResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJsonUerInformationResponse.h; sourceTree = "<group>"; };
+		6EB3170E1F15D65E00FA46EC /* SYYJsonUerInformationResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJsonUerInformationResponse.m; sourceTree = "<group>"; };
+		6EB3170F1F15D65E00FA46EC /* SYYJsonUserCommentPushListInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJsonUserCommentPushListInfo.h; sourceTree = "<group>"; };
+		6EB317101F15D65E00FA46EC /* SYYJsonUserCommentPushListInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJsonUserCommentPushListInfo.m; sourceTree = "<group>"; };
+		6EB317121F15D65E00FA46EC /* SYYJSonUploadResourceToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSonUploadResourceToken.h; sourceTree = "<group>"; };
+		6EB317131F15D65E00FA46EC /* SYYJSonUploadResourceToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSonUploadResourceToken.m; sourceTree = "<group>"; };
+		6EB317141F15D65E00FA46EC /* SYYJSONUploadResourceTokenResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYYJSONUploadResourceTokenResponse.h; sourceTree = "<group>"; };
+		6EB317151F15D65E00FA46EC /* SYYJSONUploadResourceTokenResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYYJSONUploadResourceTokenResponse.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EB316431F15D63500FA46EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB3165C1F15D63500FA46EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB316671F15D63500FA46EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EB3163D1F15D63500FA46EC = {
+			isa = PBXGroup;
+			children = (
+				6EB316481F15D63500FA46EC /* DataProcessing */,
+				6EB316621F15D63500FA46EC /* DataProcessingTests */,
+				6EB3166D1F15D63500FA46EC /* DataProcessingUITests */,
+				6EB316471F15D63500FA46EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EB316471F15D63500FA46EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316461F15D63500FA46EC /* DataProcessing.app */,
+				6EB3165F1F15D63500FA46EC /* DataProcessingTests.xctest */,
+				6EB3166A1F15D63500FA46EC /* DataProcessingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EB316481F15D63500FA46EC /* DataProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				6EB3167C1F15D65000FA46EC /* IOAgent(kuoxin) */,
+				6EB316821F15D65600FA46EC /* CoordinativeAgent(kuoxin) */,
+				6EB316901F15D65E00FA46EC /* JSonAgent(kuoxin) */,
+				6EB3164C1F15D63500FA46EC /* AppDelegate.h */,
+				6EB3164D1F15D63500FA46EC /* AppDelegate.m */,
+				6EB3164F1F15D63500FA46EC /* ViewController.h */,
+				6EB316501F15D63500FA46EC /* ViewController.m */,
+				6EB316521F15D63500FA46EC /* Main.storyboard */,
+				6EB316551F15D63500FA46EC /* Assets.xcassets */,
+				6EB316571F15D63500FA46EC /* LaunchScreen.storyboard */,
+				6EB3165A1F15D63500FA46EC /* Info.plist */,
+				6EB316491F15D63500FA46EC /* Supporting Files */,
+			);
+			path = DataProcessing;
+			sourceTree = "<group>";
+		};
+		6EB316491F15D63500FA46EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EB3164A1F15D63500FA46EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EB316621F15D63500FA46EC /* DataProcessingTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316631F15D63500FA46EC /* DataProcessingTests.m */,
+				6EB316651F15D63500FA46EC /* Info.plist */,
+			);
+			path = DataProcessingTests;
+			sourceTree = "<group>";
+		};
+		6EB3166D1F15D63500FA46EC /* DataProcessingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EB3166E1F15D63500FA46EC /* DataProcessingUITests.m */,
+				6EB316701F15D63500FA46EC /* Info.plist */,
+			);
+			path = DataProcessingUITests;
+			sourceTree = "<group>";
+		};
+		6EB3167C1F15D65000FA46EC /* IOAgent(kuoxin) */ = {
+			isa = PBXGroup;
+			children = (
+				6EB3167D1F15D65000FA46EC /* IOOperator */,
+			);
+			path = "IOAgent(kuoxin)";
+			sourceTree = "<group>";
+		};
+		6EB3167D1F15D65000FA46EC /* IOOperator */ = {
+			isa = PBXGroup;
+			children = (
+				6EB3167E1F15D65000FA46EC /* SYYIOAbstractOperator.h */,
+				6EB3167F1F15D65000FA46EC /* SYYNetworkOperator.h */,
+				6EB316801F15D65000FA46EC /* SYYNetworkOperator.m */,
+			);
+			path = IOOperator;
+			sourceTree = "<group>";
+		};
+		6EB316821F15D65600FA46EC /* CoordinativeAgent(kuoxin) */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316831F15D65600FA46EC /* coordinator */,
+				6EB316871F15D65600FA46EC /* model */,
+			);
+			path = "CoordinativeAgent(kuoxin)";
+			sourceTree = "<group>";
+		};
+		6EB316831F15D65600FA46EC /* coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316841F15D65600FA46EC /* SYYAbstractCoordinator.h */,
+				6EB316851F15D65600FA46EC /* SYYModelCoordinator.h */,
+				6EB316861F15D65600FA46EC /* SYYModelCoordinator.m */,
+			);
+			path = coordinator;
+			sourceTree = "<group>";
+		};
+		6EB316871F15D65600FA46EC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316881F15D65600FA46EC /* SYYAbstractCoordinatorModel.h */,
+				6EB316891F15D65600FA46EC /* SYYCoordinatorModel.h */,
+				6EB3168A1F15D65600FA46EC /* SYYCoordinatorModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6EB316901F15D65E00FA46EC /* JSonAgent(kuoxin) */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316911F15D65E00FA46EC /* builder */,
+				6EB3169C1F15D65E00FA46EC /* model */,
+				6EB317161F15D65E00FA46EC /* unit test */,
+			);
+			path = "JSonAgent(kuoxin)";
+			sourceTree = "<group>";
+		};
+		6EB316911F15D65E00FA46EC /* builder */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316921F15D65E00FA46EC /* AbstractBuilder */,
+				6EB316961F15D65E00FA46EC /* JsonToObject */,
+				6EB316991F15D65E00FA46EC /* ObjectToJson */,
+			);
+			path = builder;
+			sourceTree = "<group>";
+		};
+		6EB316921F15D65E00FA46EC /* AbstractBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316931F15D65E00FA46EC /* SYYJSonAbstractBuilder.h */,
+				6EB316941F15D65E00FA46EC /* SYYJSonAbstractBuilder.m */,
+				6EB316951F15D65E00FA46EC /* SYYJSonAbstractBuilderInterface.h */,
+			);
+			path = AbstractBuilder;
+			sourceTree = "<group>";
+		};
+		6EB316961F15D65E00FA46EC /* JsonToObject */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316971F15D65E00FA46EC /* SYYJSonToObjectBuilder.h */,
+				6EB316981F15D65E00FA46EC /* SYYJSonToObjectBuilder.m */,
+			);
+			path = JsonToObject;
+			sourceTree = "<group>";
+		};
+		6EB316991F15D65E00FA46EC /* ObjectToJson */ = {
+			isa = PBXGroup;
+			children = (
+				6EB3169A1F15D65E00FA46EC /* SYYJSonPersistBuilder.h */,
+				6EB3169B1F15D65E00FA46EC /* SYYJSonPersistBuilder.m */,
+			);
+			path = ObjectToJson;
+			sourceTree = "<group>";
+		};
+		6EB3169C1F15D65E00FA46EC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6EB3169D1F15D65E00FA46EC /* ActivityCommentInfo */,
+				6EB3169E1F15D65E00FA46EC /* ActivityRelativeInfo */,
+				6EB316A51F15D65E00FA46EC /* AttentionsAndFansInfo */,
+				6EB316A81F15D65E00FA46EC /* CommentsInfo */,
+				6EB316BB1F15D65E00FA46EC /* Common */,
+				6EB316CC1F15D65E00FA46EC /* GetMoreSongList */,
+				6EB316CF1F15D65E00FA46EC /* HotSearchList */,
+				6EB316D21F15D65E00FA46EC /* likeMusicOrMomentPushInfo */,
+				6EB316D51F15D65E00FA46EC /* MomentsDetails */,
+				6EB316D81F15D65E00FA46EC /* MomentsHeadList */,
+				6EB316DD1F15D65E00FA46EC /* MusicInfo */,
+				6EB316E01F15D65E00FA46EC /* MusicListOfMusician */,
+				6EB316E91F15D65E00FA46EC /* NewORHotMusicLIst */,
+				6EB316EC1F15D65E00FA46EC /* officialPushInfo */,
+				6EB316EF1F15D65E00FA46EC /* RecommendedInfo */,
+				6EB316F41F15D65E00FA46EC /* SearchMusicOrMusician */,
+				6EB316F91F15D65E00FA46EC /* SingerModelInfo */,
+				6EB316FD1F15D65E00FA46EC /* SYYJPushMusicInfo.h */,
+				6EB316FE1F15D65E00FA46EC /* SYYJPushMusicInfo.m */,
+				6EB316FF1F15D65E00FA46EC /* SYYJsonDefaultSearchValueResponse.h */,
+				6EB317001F15D65E00FA46EC /* SYYJsonDefaultSearchValueResponse.m */,
+				6EB317011F15D65E00FA46EC /* SYYJSonFavouriteMusicOfMusicianResponse.h */,
+				6EB317021F15D65E00FA46EC /* SYYJSonFavouriteMusicOfMusicianResponse.m */,
+				6EB317031F15D65E00FA46EC /* SYYJsonHotORSuggestMusicianResponse.h */,
+				6EB317041F15D65E00FA46EC /* SYYJsonHotORSuggestMusicianResponse.m */,
+				6EB317051F15D65E00FA46EC /* SYYJSonMomentListOfMusicianResponse.h */,
+				6EB317061F15D65E00FA46EC /* SYYJSonMomentListOfMusicianResponse.m */,
+				6EB317071F15D65E00FA46EC /* SYYJSONMomentListOfOtherMusicianReponse.h */,
+				6EB317081F15D65E00FA46EC /* SYYJSONMomentListOfOtherMusicianReponse.m */,
+				6EB317091F15D65E00FA46EC /* SYYJSonPublishMusicOfMusicianResponse.h */,
+				6EB3170A1F15D65E00FA46EC /* SYYJSonPublishMusicOfMusicianResponse.m */,
+				6EB3170B1F15D65E00FA46EC /* SYYJSonSearchInterviewOrActivityResponse.h */,
+				6EB3170C1F15D65E00FA46EC /* SYYJSonSearchInterviewOrActivityResponse.m */,
+				6EB3170D1F15D65E00FA46EC /* SYYJsonUerInformationResponse.h */,
+				6EB3170E1F15D65E00FA46EC /* SYYJsonUerInformationResponse.m */,
+				6EB3170F1F15D65E00FA46EC /* SYYJsonUserCommentPushListInfo.h */,
+				6EB317101F15D65E00FA46EC /* SYYJsonUserCommentPushListInfo.m */,
+				6EB317111F15D65E00FA46EC /* UploadResourceToken */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6EB3169D1F15D65E00FA46EC /* ActivityCommentInfo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ActivityCommentInfo;
+			sourceTree = "<group>";
+		};
+		6EB3169E1F15D65E00FA46EC /* ActivityRelativeInfo */ = {
+			isa = PBXGroup;
+			children = (
+				6EB3169F1F15D65E00FA46EC /* SYYActivityModel.h */,
+				6EB316A01F15D65E00FA46EC /* SYYActivityModel.m */,
+				6EB316A11F15D65E00FA46EC /* SYYActivityRelativeInfo.h */,
+				6EB316A21F15D65E00FA46EC /* SYYActivityRelativeInfo.m */,
+				6EB316A31F15D65E00FA46EC /* SYYInterviewModel.h */,
+				6EB316A41F15D65E00FA46EC /* SYYInterviewModel.m */,
+			);
+			path = ActivityRelativeInfo;
+			sourceTree = "<group>";
+		};
+		6EB316A51F15D65E00FA46EC /* AttentionsAndFansInfo */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316A61F15D65E00FA46EC /* SYYJSonAttentionAndFansInfoResponse.h */,
+				6EB316A71F15D65E00FA46EC /* SYYJSonAttentionAndFansInfoResponse.m */,
+			);
+			path = AttentionsAndFansInfo;
+			sourceTree = "<group>";
+		};
+		6EB316A81F15D65E00FA46EC /* CommentsInfo */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316A91F15D65E00FA46EC /* SYYActivityCommentInfo.h */,
+				6EB316AA1F15D65E00FA46EC /* SYYActivityCommentInfo.m */,
+				6EB316AB1F15D65E00FA46EC /* SYYInterviewCommentsResponse.h */,
+				6EB316AC1F15D65E00FA46EC /* SYYInterviewCommentsResponse.m */,
+				6EB316AD1F15D65E00FA46EC /* SYYJsonActivityCommentDetailInfo.h */,
+				6EB316AE1F15D65E00FA46EC /* SYYJsonActivityCommentDetailInfo.m */,
+				6EB316AF1F15D65E00FA46EC /* SYYJSonCommentDetailInfo.h */,
+				6EB316B01F15D65E00FA46EC /* SYYJSonCommentDetailInfo.m */,
+				6EB316B11F15D65E00FA46EC /* SYYJSonCommentInfo.h */,
+				6EB316B21F15D65E00FA46EC /* SYYJSonCommentInfo.m */,
+				6EB316B31F15D65E00FA46EC /* SYYJsonInterviewCommentInfo.h */,
+				6EB316B41F15D65E00FA46EC /* SYYJsonInterviewCommentInfo.m */,
+				6EB316B51F15D65E00FA46EC /* SYYJSonMomentCommentsResponse.h */,
+				6EB316B61F15D65E00FA46EC /* SYYJSonMomentCommentsResponse.m */,
+				6EB316B71F15D65E00FA46EC /* SYYJSonMusicCommentsInfoResponse.h */,
+				6EB316B81F15D65E00FA46EC /* SYYJSonMusicCommentsInfoResponse.m */,
+				6EB316B91F15D65E00FA46EC /* SYYPostInterViewActivityCommentInfo.h */,
+				6EB316BA1F15D65E00FA46EC /* SYYPostInterViewActivityCommentInfo.m */,
+			);
+			path = CommentsInfo;
+			sourceTree = "<group>";
+		};
+		6EB316BB1F15D65E00FA46EC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316BC1F15D65E00FA46EC /* SYYFmdbModel.h */,
+				6EB316BD1F15D65E00FA46EC /* SYYFmdbModel.m */,
+				6EB316BE1F15D65E00FA46EC /* SYYJSonAbtractObject.h */,
+				6EB316BF1F15D65E00FA46EC /* SYYJSonAbtractObject.m */,
+				6EB316C01F15D65E00FA46EC /* SYYJSonMomentInfo.h */,
+				6EB316C11F15D65E00FA46EC /* SYYJSonMomentInfo.m */,
+				6EB316C21F15D65E00FA46EC /* SYYJSonMusicianInfo.h */,
+				6EB316C31F15D65E00FA46EC /* SYYJSonMusicianInfo.m */,
+				6EB316C41F15D65E00FA46EC /* SYYJSonMusicInfo.h */,
+				6EB316C51F15D65E00FA46EC /* SYYJSonMusicInfo.m */,
+				6EB316C61F15D65E00FA46EC /* SYYJSonResourceInfo.h */,
+				6EB316C71F15D65E00FA46EC /* SYYJSonResourceInfo.m */,
+				6EB316C81F15D65E00FA46EC /* SYYJSonResponse.h */,
+				6EB316C91F15D65E00FA46EC /* SYYJSonResponse.m */,
+				6EB316CA1F15D65E00FA46EC /* SYYMusicModel.h */,
+				6EB316CB1F15D65E00FA46EC /* SYYMusicModel.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6EB316CC1F15D65E00FA46EC /* GetMoreSongList */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316CD1F15D65E00FA46EC /* SYYGetMoreSongLIstInfo.h */,
+				6EB316CE1F15D65E00FA46EC /* SYYGetMoreSongLIstInfo.m */,
+			);
+			path = GetMoreSongList;
+			sourceTree = "<group>";
+		};
+		6EB316CF1F15D65E00FA46EC /* HotSearchList */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316D01F15D65E00FA46EC /* SYYJSonHotSearchListResponse.h */,
+				6EB316D11F15D65E00FA46EC /* SYYJSonHotSearchListResponse.m */,
+			);
+			path = HotSearchList;
+			sourceTree = "<group>";
+		};
+		6EB316D21F15D65E00FA46EC /* likeMusicOrMomentPushInfo */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316D31F15D65E00FA46EC /* SYYLikeMusicOrMomentInfo.h */,
+				6EB316D41F15D65E00FA46EC /* SYYLikeMusicOrMomentInfo.m */,
+			);
+			path = likeMusicOrMomentPushInfo;
+			sourceTree = "<group>";
+		};
+		6EB316D51F15D65E00FA46EC /* MomentsDetails */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316D61F15D65E00FA46EC /* SYYJSonMomentsResponse.h */,
+				6EB316D71F15D65E00FA46EC /* SYYJSonMomentsResponse.m */,
+			);
+			path = MomentsDetails;
+			sourceTree = "<group>";
+		};
+		6EB316D81F15D65E00FA46EC /* MomentsHeadList */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316D91F15D65E00FA46EC /* SYYJSonMomentHeadInfo.h */,
+				6EB316DA1F15D65E00FA46EC /* SYYJSonMomentHeadInfo.m */,
+				6EB316DB1F15D65E00FA46EC /* SYYJSonMomentsHeadListResponse.h */,
+				6EB316DC1F15D65E00FA46EC /* SYYJSonMomentsHeadListResponse.m */,
+			);
+			path = MomentsHeadList;
+			sourceTree = "<group>";
+		};
+		6EB316DD1F15D65E00FA46EC /* MusicInfo */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316DE1F15D65E00FA46EC /* SYYJSonMusicInfo.h */,
+				6EB316DF1F15D65E00FA46EC /* SYYJSonMusicInfo.m */,
+			);
+			path = MusicInfo;
+			sourceTree = "<group>";
+		};
+		6EB316E01F15D65E00FA46EC /* MusicListOfMusician */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316E11F15D65E00FA46EC /* SYYJSonMusicListOfMusicianResponse.h */,
+				6EB316E21F15D65E00FA46EC /* SYYJSonMusicListOfMusicianResponse.m */,
+				6EB316E31F15D65E00FA46EC /* SYYJsonSongListInfo.h */,
+				6EB316E41F15D65E00FA46EC /* SYYJsonSongListInfo.m */,
+				6EB316E51F15D65E00FA46EC /* SYYRecommendMusicInfo.h */,
+				6EB316E61F15D65E00FA46EC /* SYYRecommendMusicInfo.m */,
+				6EB316E71F15D65E00FA46EC /* SYYRecommendMusicListDetailResponse.h */,
+				6EB316E81F15D65E00FA46EC /* SYYRecommendMusicListDetailResponse.m */,
+			);
+			path = MusicListOfMusician;
+			sourceTree = "<group>";
+		};
+		6EB316E91F15D65E00FA46EC /* NewORHotMusicLIst */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316EA1F15D65E00FA46EC /* SYYHomeHOT_NEWMusicList.h */,
+				6EB316EB1F15D65E00FA46EC /* SYYHomeHOT_NEWMusicList.m */,
+			);
+			path = NewORHotMusicLIst;
+			sourceTree = "<group>";
+		};
+		6EB316EC1F15D65E00FA46EC /* officialPushInfo */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316ED1F15D65E00FA46EC /* SYYOfficialPushInfo.h */,
+				6EB316EE1F15D65E00FA46EC /* SYYOfficialPushInfo.m */,
+			);
+			path = officialPushInfo;
+			sourceTree = "<group>";
+		};
+		6EB316EF1F15D65E00FA46EC /* RecommendedInfo */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316F01F15D65E00FA46EC /* SYYJSonAdvertisementInfo.h */,
+				6EB316F11F15D65E00FA46EC /* SYYJSonAdvertisementInfo.m */,
+				6EB316F21F15D65E00FA46EC /* SYYJSonRecommendedInfoResponse.h */,
+				6EB316F31F15D65E00FA46EC /* SYYJSonRecommendedInfoResponse.m */,
+			);
+			path = RecommendedInfo;
+			sourceTree = "<group>";
+		};
+		6EB316F41F15D65E00FA46EC /* SearchMusicOrMusician */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316F51F15D65E00FA46EC /* SYYJSonSearchMusicOrMusicianInfo.h */,
+				6EB316F61F15D65E00FA46EC /* SYYJSonSearchMusicOrMusicianInfo.m */,
+				6EB316F71F15D65E00FA46EC /* SYYJSonSearchMusicOrMusicianResponse.h */,
+				6EB316F81F15D65E00FA46EC /* SYYJSonSearchMusicOrMusicianResponse.m */,
+			);
+			path = SearchMusicOrMusician;
+			sourceTree = "<group>";
+		};
+		6EB316F91F15D65E00FA46EC /* SingerModelInfo */ = {
+			isa = PBXGroup;
+			children = (
+				6EB316FA1F15D65E00FA46EC /* ActivityCommentInfo */,
+				6EB316FB1F15D65E00FA46EC /* SYYMusicianInformationInfo.h */,
+				6EB316FC1F15D65E00FA46EC /* SYYMusicianInformationInfo.m */,
+			);
+			path = SingerModelInfo;
+			sourceTree = "<group>";
+		};
+		6EB316FA1F15D65E00FA46EC /* ActivityCommentInfo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ActivityCommentInfo;
+			sourceTree = "<group>";
+		};
+		6EB317111F15D65E00FA46EC /* UploadResourceToken */ = {
+			isa = PBXGroup;
+			children = (
+				6EB317121F15D65E00FA46EC /* SYYJSonUploadResourceToken.h */,
+				6EB317131F15D65E00FA46EC /* SYYJSonUploadResourceToken.m */,
+				6EB317141F15D65E00FA46EC /* SYYJSONUploadResourceTokenResponse.h */,
+				6EB317151F15D65E00FA46EC /* SYYJSONUploadResourceTokenResponse.m */,
+			);
+			path = UploadResourceToken;
+			sourceTree = "<group>";
+		};
+		6EB317161F15D65E00FA46EC /* unit test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "unit test";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EB316451F15D63500FA46EC /* DataProcessing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB316731F15D63500FA46EC /* Build configuration list for PBXNativeTarget "DataProcessing" */;
+			buildPhases = (
+				6EB316421F15D63500FA46EC /* Sources */,
+				6EB316431F15D63500FA46EC /* Frameworks */,
+				6EB316441F15D63500FA46EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataProcessing;
+			productName = DataProcessing;
+			productReference = 6EB316461F15D63500FA46EC /* DataProcessing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EB3165E1F15D63500FA46EC /* DataProcessingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB316761F15D63500FA46EC /* Build configuration list for PBXNativeTarget "DataProcessingTests" */;
+			buildPhases = (
+				6EB3165B1F15D63500FA46EC /* Sources */,
+				6EB3165C1F15D63500FA46EC /* Frameworks */,
+				6EB3165D1F15D63500FA46EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB316611F15D63500FA46EC /* PBXTargetDependency */,
+			);
+			name = DataProcessingTests;
+			productName = DataProcessingTests;
+			productReference = 6EB3165F1F15D63500FA46EC /* DataProcessingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EB316691F15D63500FA46EC /* DataProcessingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB316791F15D63500FA46EC /* Build configuration list for PBXNativeTarget "DataProcessingUITests" */;
+			buildPhases = (
+				6EB316661F15D63500FA46EC /* Sources */,
+				6EB316671F15D63500FA46EC /* Frameworks */,
+				6EB316681F15D63500FA46EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB3166C1F15D63500FA46EC /* PBXTargetDependency */,
+			);
+			name = DataProcessingUITests;
+			productName = DataProcessingUITests;
+			productReference = 6EB3166A1F15D63500FA46EC /* DataProcessingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EB3163E1F15D63500FA46EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cn.com.rockmobile.DataProcessing;
+				TargetAttributes = {
+					6EB316451F15D63500FA46EC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2CW936H73A;
+						ProvisioningStyle = Automatic;
+					};
+					6EB3165E1F15D63500FA46EC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2CW936H73A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6EB316451F15D63500FA46EC;
+					};
+					6EB316691F15D63500FA46EC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2CW936H73A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6EB316451F15D63500FA46EC;
+					};
+				};
+			};
+			buildConfigurationList = 6EB316411F15D63500FA46EC /* Build configuration list for PBXProject "DataProcessing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EB3163D1F15D63500FA46EC;
+			productRefGroup = 6EB316471F15D63500FA46EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EB316451F15D63500FA46EC /* DataProcessing */,
+				6EB3165E1F15D63500FA46EC /* DataProcessingTests */,
+				6EB316691F15D63500FA46EC /* DataProcessingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EB316441F15D63500FA46EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB316591F15D63500FA46EC /* LaunchScreen.storyboard in Resources */,
+				6EB316561F15D63500FA46EC /* Assets.xcassets in Resources */,
+				6EB316541F15D63500FA46EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB3165D1F15D63500FA46EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB316681F15D63500FA46EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EB316421F15D63500FA46EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB317331F15D65E00FA46EC /* SYYJSonMomentsResponse.m in Sources */,
+				6EB317271F15D65E00FA46EC /* SYYPostInterViewActivityCommentInfo.m in Sources */,
+				6EB3173C1F15D65E00FA46EC /* SYYOfficialPushInfo.m in Sources */,
+				6EB317201F15D65E00FA46EC /* SYYInterviewCommentsResponse.m in Sources */,
+				6EB317461F15D65E00FA46EC /* SYYJSonMomentListOfMusicianResponse.m in Sources */,
+				6EB316511F15D63500FA46EC /* ViewController.m in Sources */,
+				6EB3172A1F15D65E00FA46EC /* SYYJSonMomentInfo.m in Sources */,
+				6EB317421F15D65E00FA46EC /* SYYJPushMusicInfo.m in Sources */,
+				6EB3171E1F15D65E00FA46EC /* SYYJSonAttentionAndFansInfoResponse.m in Sources */,
+				6EB317241F15D65E00FA46EC /* SYYJsonInterviewCommentInfo.m in Sources */,
+				6EB317251F15D65E00FA46EC /* SYYJSonMomentCommentsResponse.m in Sources */,
+				6EB317351F15D65E00FA46EC /* SYYJSonMomentsHeadListResponse.m in Sources */,
+				6EB317211F15D65E00FA46EC /* SYYJsonActivityCommentDetailInfo.m in Sources */,
+				6EB317221F15D65E00FA46EC /* SYYJSonCommentDetailInfo.m in Sources */,
+				6EB317451F15D65E00FA46EC /* SYYJsonHotORSuggestMusicianResponse.m in Sources */,
+				6EB3172B1F15D65E00FA46EC /* SYYJSonMusicianInfo.m in Sources */,
+				6EB317301F15D65E00FA46EC /* SYYGetMoreSongLIstInfo.m in Sources */,
+				6EB3168D1F15D65600FA46EC /* SYYModelCoordinator.m in Sources */,
+				6EB3168E1F15D65600FA46EC /* SYYCoordinatorModel.m in Sources */,
+				6EB317401F15D65E00FA46EC /* SYYJSonSearchMusicOrMusicianResponse.m in Sources */,
+				6EB3174C1F15D65E00FA46EC /* SYYJSonUploadResourceToken.m in Sources */,
+				6EB317191F15D65E00FA46EC /* SYYJSonToObjectBuilder.m in Sources */,
+				6EB3172C1F15D65E00FA46EC /* SYYJSonMusicInfo.m in Sources */,
+				6EB3172F1F15D65E00FA46EC /* SYYMusicModel.m in Sources */,
+				6EB317411F15D65E00FA46EC /* SYYMusicianInformationInfo.m in Sources */,
+				6EB317361F15D65E00FA46EC /* SYYJSonMusicInfo.m in Sources */,
+				6EB317321F15D65E00FA46EC /* SYYLikeMusicOrMomentInfo.m in Sources */,
+				6EB317491F15D65E00FA46EC /* SYYJSonSearchInterviewOrActivityResponse.m in Sources */,
+				6EB3173D1F15D65E00FA46EC /* SYYJSonAdvertisementInfo.m in Sources */,
+				6EB317441F15D65E00FA46EC /* SYYJSonFavouriteMusicOfMusicianResponse.m in Sources */,
+				6EB3174D1F15D65E00FA46EC /* SYYJSONUploadResourceTokenResponse.m in Sources */,
+				6EB317341F15D65E00FA46EC /* SYYJSonMomentHeadInfo.m in Sources */,
+				6EB317381F15D65E00FA46EC /* SYYJsonSongListInfo.m in Sources */,
+				6EB3171F1F15D65E00FA46EC /* SYYActivityCommentInfo.m in Sources */,
+				6EB3171B1F15D65E00FA46EC /* SYYActivityModel.m in Sources */,
+				6EB317471F15D65E00FA46EC /* SYYJSONMomentListOfOtherMusicianReponse.m in Sources */,
+				6EB3173F1F15D65E00FA46EC /* SYYJSonSearchMusicOrMusicianInfo.m in Sources */,
+				6EB3164E1F15D63500FA46EC /* AppDelegate.m in Sources */,
+				6EB3173A1F15D65E00FA46EC /* SYYRecommendMusicListDetailResponse.m in Sources */,
+				6EB317391F15D65E00FA46EC /* SYYRecommendMusicInfo.m in Sources */,
+				6EB3174B1F15D65E00FA46EC /* SYYJsonUserCommentPushListInfo.m in Sources */,
+				6EB317261F15D65E00FA46EC /* SYYJSonMusicCommentsInfoResponse.m in Sources */,
+				6EB317431F15D65E00FA46EC /* SYYJsonDefaultSearchValueResponse.m in Sources */,
+				6EB317281F15D65E00FA46EC /* SYYFmdbModel.m in Sources */,
+				6EB317181F15D65E00FA46EC /* SYYJSonAbstractBuilder.m in Sources */,
+				6EB317311F15D65E00FA46EC /* SYYJSonHotSearchListResponse.m in Sources */,
+				6EB316811F15D65000FA46EC /* SYYNetworkOperator.m in Sources */,
+				6EB3173B1F15D65E00FA46EC /* SYYHomeHOT_NEWMusicList.m in Sources */,
+				6EB3174A1F15D65E00FA46EC /* SYYJsonUerInformationResponse.m in Sources */,
+				6EB3171D1F15D65E00FA46EC /* SYYInterviewModel.m in Sources */,
+				6EB317481F15D65E00FA46EC /* SYYJSonPublishMusicOfMusicianResponse.m in Sources */,
+				6EB3172D1F15D65E00FA46EC /* SYYJSonResourceInfo.m in Sources */,
+				6EB3171A1F15D65E00FA46EC /* SYYJSonPersistBuilder.m in Sources */,
+				6EB317371F15D65E00FA46EC /* SYYJSonMusicListOfMusicianResponse.m in Sources */,
+				6EB3173E1F15D65E00FA46EC /* SYYJSonRecommendedInfoResponse.m in Sources */,
+				6EB317291F15D65E00FA46EC /* SYYJSonAbtractObject.m in Sources */,
+				6EB3172E1F15D65E00FA46EC /* SYYJSonResponse.m in Sources */,
+				6EB317231F15D65E00FA46EC /* SYYJSonCommentInfo.m in Sources */,
+				6EB3171C1F15D65E00FA46EC /* SYYActivityRelativeInfo.m in Sources */,
+				6EB3164B1F15D63500FA46EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB3165B1F15D63500FA46EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB316641F15D63500FA46EC /* DataProcessingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB316661F15D63500FA46EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB3166F1F15D63500FA46EC /* DataProcessingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EB316611F15D63500FA46EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB316451F15D63500FA46EC /* DataProcessing */;
+			targetProxy = 6EB316601F15D63500FA46EC /* PBXContainerItemProxy */;
+		};
+		6EB3166C1F15D63500FA46EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB316451F15D63500FA46EC /* DataProcessing */;
+			targetProxy = 6EB3166B1F15D63500FA46EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EB316521F15D63500FA46EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB316531F15D63500FA46EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EB316571F15D63500FA46EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB316581F15D63500FA46EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EB316711F15D63500FA46EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6EB316721F15D63500FA46EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EB316741F15D63500FA46EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2CW936H73A;
+				INFOPLIST_FILE = DataProcessing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.rockmobile.DataProcessing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6EB316751F15D63500FA46EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2CW936H73A;
+				INFOPLIST_FILE = DataProcessing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.rockmobile.DataProcessing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6EB316771F15D63500FA46EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2CW936H73A;
+				INFOPLIST_FILE = DataProcessingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.rockmobile.DataProcessingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataProcessing.app/DataProcessing";
+			};
+			name = Debug;
+		};
+		6EB316781F15D63500FA46EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2CW936H73A;
+				INFOPLIST_FILE = DataProcessingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.rockmobile.DataProcessingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataProcessing.app/DataProcessing";
+			};
+			name = Release;
+		};
+		6EB3167A1F15D63500FA46EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2CW936H73A;
+				INFOPLIST_FILE = DataProcessingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.rockmobile.DataProcessingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DataProcessing;
+			};
+			name = Debug;
+		};
+		6EB3167B1F15D63500FA46EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2CW936H73A;
+				INFOPLIST_FILE = DataProcessingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.rockmobile.DataProcessingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DataProcessing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EB316411F15D63500FA46EC /* Build configuration list for PBXProject "DataProcessing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB316711F15D63500FA46EC /* Debug */,
+				6EB316721F15D63500FA46EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB316731F15D63500FA46EC /* Build configuration list for PBXNativeTarget "DataProcessing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB316741F15D63500FA46EC /* Debug */,
+				6EB316751F15D63500FA46EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EB316761F15D63500FA46EC /* Build configuration list for PBXNativeTarget "DataProcessingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB316771F15D63500FA46EC /* Debug */,
+				6EB316781F15D63500FA46EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EB316791F15D63500FA46EC /* Build configuration list for PBXNativeTarget "DataProcessingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB3167A1F15D63500FA46EC /* Debug */,
+				6EB3167B1F15D63500FA46EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EB3163E1F15D63500FA46EC /* Project object */;
+}
